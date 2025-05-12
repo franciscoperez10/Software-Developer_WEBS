@@ -25,7 +25,7 @@ if (diaDaSemana.toLowerCase() == "sexta") {
 } else (alert("Boa sorte!"));
 
 let password = prompt("Qual a password?");
-if (password.length >= 6) {
+if (password.length > 6) {
     alert("Acesso permitido!");  
 } else (alert("Acesso negado!"));
 
